@@ -11,7 +11,7 @@ Bem-vindo ao **Chatbot com Memória**, um assistente inteligente que utiliza o *
 ## 🛠️ Instalação
 ### 1️⃣ Clone este repositório
 ```bash
-git clone https://github.com/seu-usuario/chatbot-gemini.git
+git clone https://github.com/BrenoNsm/Chatbot-com-ChromaDB-e-Gemini-AI.git
 cd chatbot-gemini
 ```
 
