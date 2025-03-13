@@ -30,11 +30,11 @@ pip install -r requirements.txt
 ### 4️⃣ Configure a API Key do Gemini AI
 Crie um arquivo `.env` no diretório raiz e adicione sua chave da API:
 ```bash
-echo "GEMINI_API_KEY=SUAS_CHAVE_AQUI" > .env
+echo "API_GEMINI_KEY=SUAS_CHAVE_AQUI" > .env
 ```
 Ou edite manualmente o arquivo `.env`:
 ```
-GEMINI_API_KEY=SUAS_CHAVE_AQUI
+API_GEMINI_KEY=SUAS_CHAVE_AQUI
 ```
 
 ## ▶️ Como Executar
