@@ -1,6 +1,7 @@
 from django.urls import path
-from . import views
+from .views import chatbot_interface, chat_view  # ⬅ Adicionado chat_view corretamente
 
 urlpatterns = [
-    path('chat/', views.chat_view, name='chat'),
+    path("", chatbot_interface, name="chatbot_interface"),  # Página web
+    path("api/chat/", chat_view, name="chatbot_api"),  # API do chatbot
 ]

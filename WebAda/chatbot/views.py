@@ -19,6 +19,12 @@ database = Database(config)
 embeddings = Embeddings(config)
 chatbot = Chatbot(config, database, embeddings)
 
+from django.shortcuts import render
+
+def chatbot_interface(request):
+    return render(request, "index.html")
+
+
 @csrf_exempt
 def chat_view(request):
     if request.method == "POST":
