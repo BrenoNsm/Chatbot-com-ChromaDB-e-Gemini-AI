@@ -12,7 +12,7 @@ Bem-vindo ao **Chatbot com Memória**, um assistente inteligente que utiliza o *
 ### 1️⃣ Clone este repositório
 ```bash
 git clone https://github.com/BrenoNsm/Chatbot-com-ChromaDB-e-Gemini-AI.git
-cd chatbot-gemini
+cd Chatbot-com-ChromaDB-e-Gemini-AI
 ```
 
 ### 2️⃣ Crie um ambiente virtual (opcional, mas recomendado)
@@ -30,11 +30,11 @@ pip install -r requirements.txt
 ### 4️⃣ Configure a API Key do Gemini AI
 Crie um arquivo `.env` no diretório raiz e adicione sua chave da API:
 ```bash
-echo "GEMINI_API_KEY=SUAS_CHAVE_AQUI" > .env
+echo "API_GEMINI_KEY=SUAS_CHAVE_AQUI" > .env
 ```
 Ou edite manualmente o arquivo `.env`:
 ```
-GEMINI_API_KEY=SUAS_CHAVE_AQUI
+API_GEMINI_KEY=SUAS_CHAVE_AQUI
 ```
 
 ## ▶️ Como Executar
